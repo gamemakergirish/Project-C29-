@@ -66,6 +66,8 @@ function setup() {
 function draw() {
   background(56,44,44); 
  
+  //Engine.update(engine);
+  
   textSize(20);
   fill("lightyellow");
   text("Drag the polygon to destroy the blocks",300,30);
@@ -122,8 +124,5 @@ function mouseReleased(){
   slingShot.fly();
 }
 function keyPressed(){
-
-  if(keyCode === 32){
-     slingshot.attach(block.body);
-  }
+//write code for extra chance of the player
 }
